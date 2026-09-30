@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+env/
+.DS_Store
+.idea/
+.vscode/
+.env
+*.mp4
+!media/demo_episode.mp4

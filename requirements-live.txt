@@ -1,0 +1,4 @@
+# Optional live-model dependencies. Not required for mock/replay evaluation.
+python-dotenv>=1.0,<2.0
+google-genai>=1.0,<2.0
+# Local Ollama is installed separately and accessed over localhost HTTP.
