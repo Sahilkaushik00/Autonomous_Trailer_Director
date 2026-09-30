@@ -1,1 +1,18 @@
 
+[
+  "tests/test_live_adapters.py::test_ffmpeg_renderer_creates_mp4",
+  "tests/test_live_adapters.py::test_llm_story_and_planner_are_adapter_driven",
+  "tests/test_live_adapters.py::test_video_analyzer_writes_advisory_metadata_without_becoming_source_truth",
+  "tests/test_local_provider.py::test_local_provider_exposes_helpful_connection_error",
+  "tests/test_local_provider.py::test_local_provider_uses_structured_json_schema",
+  "tests/test_main.py::test_loads_three_target_audiences",
+  "tests/test_main.py::test_mock_pipeline_returns_three_trailers",
+  "tests/test_main.py::test_run_demo_skips_optional_render_without_ffmpeg",
+  "tests/test_pipeline.py::test_contract_change_replans_only_affected_segments",
+  "tests/test_pipeline.py::test_director_generates_three_audience_plans",
+  "tests/test_pipeline.py::test_family_policy_rejects_frightening_scene",
+  "tests/test_pipeline.py::test_missing_scene_is_rejected",
+  "tests/test_pipeline.py::test_restricted_rights_are_rejected",
+  "tests/test_pipeline.py::test_source_instruction_is_untrusted_and_does_not_override_contracts",
+  "tests/test_pipeline.py::test_spoiler_scene_is_rejected_when_fact_is_explicitly_claimed"
+]
