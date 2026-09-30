@@ -1,0 +1,209 @@
+{
+  "trailer_id": "dialect_region_v1",
+  "audience": {
+    "id": "dialect_region",
+    "name": "dialect-region viewers",
+    "goal": "Show that the release understands the audience's language and cultural context.",
+    "special_care": "Do not reduce the audience to stereotypes or treat dialect as a comic device.",
+    "territory": "IN",
+    "preferred_language": "hi",
+    "dialect": "hi_haryanvi",
+    "engagement_signals": {
+      "dialect_affinity": 0.71
+    }
+  },
+  "duration_seconds": 45.0,
+  "audience_promise": "A character-led mystery presented through supplied regional language evidence.",
+  "emotional_journey": [
+    "familiar voice",
+    "family tension",
+    "curiosity",
+    "unresolved question"
+  ],
+  "segments": [
+    {
+      "segment_id": "dialect_region_seg_01",
+      "source_scene_id": "scene_01",
+      "timecode": {
+        "start": 0.0,
+        "end": 10.0,
+        "source_in": "00:00:00.000",
+        "source_out": "00:00:10.000"
+      },
+      "video": "scene:scene_01",
+      "audio": "music:theme_01",
+      "subtitle": "घर आके अच्छा लाग्या।",
+      "text_card": null,
+      "voice_over": null,
+      "reason": "Supports the dialect_region audience promise using source scene evidence.",
+      "evidence": [
+        {
+          "source_type": "scene",
+          "source_id": "scene_01",
+          "detail": "Maya returns to her family home and notices the old courtyard is being prepared for a celebration."
+        }
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "dialect_region_seg_02",
+      "source_scene_id": "scene_02",
+      "timecode": {
+        "start": 10.0,
+        "end": 20.0,
+        "source_in": "00:00:10.000",
+        "source_out": "00:00:20.000"
+      },
+      "video": "scene:scene_02",
+      "audio": "music:theme_01",
+      "subtitle": "हम यूं ना मान सकें कि कुछ बदल्या ही ना।",
+      "text_card": null,
+      "voice_over": null,
+      "reason": "Supports the dialect_region audience promise using source scene evidence.",
+      "evidence": [
+        {
+          "source_type": "scene",
+          "source_id": "scene_02",
+          "detail": "Maya and her brother Arjun argue about whether to keep the family shop open."
+        }
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "dialect_region_seg_03",
+      "source_scene_id": "scene_03",
+      "timecode": {
+        "start": 20.0,
+        "end": 30.0,
+        "source_in": "00:00:20.000",
+        "source_out": "00:00:30.000"
+      },
+      "video": "scene:scene_03",
+      "audio": "music:theme_02",
+      "subtitle": "जो भी हो, मिलकै सामना करांगे।",
+      "text_card": null,
+      "voice_over": null,
+      "reason": "Supports the dialect_region audience promise using source scene evidence.",
+      "evidence": [
+        {
+          "source_type": "scene",
+          "source_id": "scene_03",
+          "detail": "Asha tells Maya that the family should stay together and finish preparations before sunset."
+        }
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "dialect_region_seg_04",
+      "source_scene_id": "scene_08",
+      "timecode": {
+        "start": 75.0,
+        "end": 90.0,
+        "source_in": "00:01:15.000",
+        "source_out": "00:01:30.000"
+      },
+      "video": "scene:scene_08",
+      "audio": "music:theme_01",
+      "subtitle": "अभी बात खत्म ना हुई।",
+      "text_card": null,
+      "voice_over": null,
+      "reason": "Supports the dialect_region audience promise using source scene evidence.",
+      "evidence": [
+        {
+          "source_type": "scene",
+          "source_id": "scene_08",
+          "detail": "At sunset, Maya closes the shop door and looks toward the family courtyard, leaving the outcome unresolved."
+        }
+      ],
+      "risk_flags": []
+    }
+  ],
+  "validation": [
+    {
+      "validator": "source_accuracy",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "spoiler",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "story_truth",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "rights",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "audience_policy",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "cultural_respect",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "accessibility",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "budget",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "audience_bias",
+      "status": "PASS_WITH_WARNINGS",
+      "issues": [
+        {
+          "code": "SENSITIVE_AUDIENCE_SIGNAL",
+          "severity": "warning",
+          "message": "Audience data contains identity/regional signal(s): dialect_affinity. These must not be used as stereotype proxies.",
+          "segment_id": null,
+          "evidence": [],
+          "repair_hint": "Use explicit episode evidence and language/context attributes instead of demographic assumptions."
+        }
+      ]
+    },
+    {
+      "validator": "input_safety",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "video_grounding",
+      "status": "NOT_RUN",
+      "issues": [
+        {
+          "code": "VIDEO_ANALYSIS_NOT_AVAILABLE",
+          "severity": "info",
+          "message": "No live video analysis was supplied; deterministic source checks still apply.",
+          "segment_id": null,
+          "evidence": [],
+          "repair_hint": null
+        }
+      ]
+    }
+  ],
+  "assumptions": [
+    "Mock planner uses supplied scene metadata as grounded evidence.",
+    "Historic performance is treated as a hypothesis signal, not a selection rule."
+  ],
+  "human_approvals_required": [
+    "editorial_final_cut",
+    "rights_approval",
+    "cultural_review"
+  ],
+  "estimated_cost_usd": 0.045,
+  "fallback_plan": "Drop the riskiest segment, replace it with the next validated candidate, then rerun all impacted validators.",
+  "revision": 1,
+  "status": "PASS_WITH_WARNINGS"
+}

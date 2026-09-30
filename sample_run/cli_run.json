@@ -1,0 +1,1059 @@
+{
+  "system": "autonomous_trailer_director",
+  "mode": "mock",
+  "episode": {
+    "episode_id": "demo_episode_001",
+    "duration_seconds": 90.0,
+    "scenes": [
+      {
+        "id": "scene_01",
+        "start": 0.0,
+        "end": 10.0,
+        "description": "Maya returns to her family home and notices the old courtyard is being prepared for a celebration.",
+        "characters": [
+          "Maya",
+          "Asha"
+        ],
+        "relationship_claims": [
+          "Maya is Asha's daughter."
+        ],
+        "emotional_turn": "welcome",
+        "event_tags": [
+          "family",
+          "warmth",
+          "identity"
+        ],
+        "sensitive_content": [],
+        "spoiler_facts": [],
+        "visual_evidence": [
+          "courtyard",
+          "family gathering"
+        ],
+        "audio_evidence": [
+          "Maya greeting Asha"
+        ],
+        "music_asset_id": "theme_01"
+      },
+      {
+        "id": "scene_02",
+        "start": 10.0,
+        "end": 20.0,
+        "description": "Maya and her brother Arjun argue about whether to keep the family shop open.",
+        "characters": [
+          "Maya",
+          "Arjun"
+        ],
+        "relationship_claims": [
+          "Maya and Arjun are siblings."
+        ],
+        "emotional_turn": "conflict",
+        "event_tags": [
+          "conflict",
+          "identity",
+          "dialogue"
+        ],
+        "sensitive_content": [],
+        "spoiler_facts": [],
+        "visual_evidence": [
+          "shop interior"
+        ],
+        "audio_evidence": [
+          "argument"
+        ],
+        "music_asset_id": "theme_01"
+      },
+      {
+        "id": "scene_03",
+        "start": 20.0,
+        "end": 30.0,
+        "description": "Asha tells Maya that the family should stay together and finish preparations before sunset.",
+        "characters": [
+          "Asha",
+          "Maya"
+        ],
+        "relationship_claims": [
+          "Asha is Maya's mother."
+        ],
+        "emotional_turn": "resolve",
+        "event_tags": [
+          "family",
+          "warmth",
+          "dialogue"
+        ],
+        "sensitive_content": [],
+        "spoiler_facts": [],
+        "visual_evidence": [
+          "preparations"
+        ],
+        "audio_evidence": [
+          "family advice"
+        ],
+        "music_asset_id": "theme_02"
+      },
+      {
+        "id": "scene_04",
+        "start": 30.0,
+        "end": 40.0,
+        "description": "Arjun finds an old sealed envelope behind the shop counter and quietly hides it.",
+        "characters": [
+          "Arjun"
+        ],
+        "relationship_claims": [],
+        "emotional_turn": "mystery",
+        "event_tags": [
+          "mystery",
+          "discovery"
+        ],
+        "sensitive_content": [],
+        "spoiler_facts": [],
+        "visual_evidence": [
+          "sealed envelope"
+        ],
+        "audio_evidence": [
+          "paper rustle"
+        ],
+        "music_asset_id": "theme_02"
+      },
+      {
+        "id": "scene_05",
+        "start": 40.0,
+        "end": 50.0,
+        "description": "Maya hears a loud crash from the back room and runs toward it.",
+        "characters": [
+          "Maya"
+        ],
+        "relationship_claims": [],
+        "emotional_turn": "escalation",
+        "event_tags": [
+          "mystery",
+          "pace"
+        ],
+        "sensitive_content": [
+          "frightening_sound"
+        ],
+        "spoiler_facts": [],
+        "visual_evidence": [
+          "running",
+          "dark corridor"
+        ],
+        "audio_evidence": [
+          "loud crash"
+        ],
+        "music_asset_id": "theme_01"
+      },
+      {
+        "id": "scene_06",
+        "start": 50.0,
+        "end": 60.0,
+        "description": "Maya opens the envelope and discovers a letter explaining that the shop was secretly sold years earlier.",
+        "characters": [
+          "Maya"
+        ],
+        "relationship_claims": [],
+        "emotional_turn": "revelation",
+        "event_tags": [
+          "discovery",
+          "major_reveal"
+        ],
+        "sensitive_content": [],
+        "spoiler_facts": [
+          "the shop was secretly sold years earlier"
+        ],
+        "visual_evidence": [
+          "letter"
+        ],
+        "audio_evidence": [
+          "reading letter"
+        ],
+        "music_asset_id": "theme_02"
+      },
+      {
+        "id": "scene_07",
+        "start": 60.0,
+        "end": 75.0,
+        "description": "The siblings confront each other after Maya learns the truth about the shop.",
+        "characters": [
+          "Maya",
+          "Arjun"
+        ],
+        "relationship_claims": [
+          "Maya and Arjun are siblings."
+        ],
+        "emotional_turn": "confrontation",
+        "event_tags": [
+          "conflict",
+          "major_reveal",
+          "identity"
+        ],
+        "sensitive_content": [],
+        "spoiler_facts": [
+          "Arjun knew about the secret sale"
+        ],
+        "visual_evidence": [
+          "confrontation"
+        ],
+        "audio_evidence": [
+          "argument"
+        ],
+        "music_asset_id": "theme_02"
+      },
+      {
+        "id": "scene_08",
+        "start": 75.0,
+        "end": 90.0,
+        "description": "At sunset, Maya closes the shop door and looks toward the family courtyard, leaving the outcome unresolved.",
+        "characters": [
+          "Maya"
+        ],
+        "relationship_claims": [],
+        "emotional_turn": "open_question",
+        "event_tags": [
+          "family",
+          "warmth",
+          "open_question"
+        ],
+        "sensitive_content": [],
+        "spoiler_facts": [],
+        "visual_evidence": [
+          "sunset",
+          "courtyard"
+        ],
+        "audio_evidence": [
+          "quiet closing door"
+        ],
+        "music_asset_id": "theme_01"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "d01",
+        "scene_id": "scene_01",
+        "start": 2.0,
+        "end": 5.0,
+        "speaker": "Maya",
+        "text": "It feels good to be home.",
+        "subtitle_variants": {
+          "hi_haryanvi": "घर आके अच्छा लाग्या।"
+        }
+      },
+      {
+        "id": "d02",
+        "scene_id": "scene_02",
+        "start": 12.0,
+        "end": 17.0,
+        "speaker": "Maya",
+        "text": "We cannot keep pretending nothing changed.",
+        "subtitle_variants": {
+          "hi_haryanvi": "हम यूं ना मान सकें कि कुछ बदल्या ही ना।"
+        }
+      },
+      {
+        "id": "d03",
+        "scene_id": "scene_03",
+        "start": 22.0,
+        "end": 27.0,
+        "speaker": "Asha",
+        "text": "Whatever happens, we face it together.",
+        "subtitle_variants": {
+          "hi_haryanvi": "जो भी हो, मिलकै सामना करांगे।"
+        }
+      },
+      {
+        "id": "d04",
+        "scene_id": "scene_04",
+        "start": 33.0,
+        "end": 37.0,
+        "speaker": "Arjun",
+        "text": "What is this doing here?",
+        "subtitle_variants": {
+          "hi_haryanvi": "यो यहां के कर रह्या है?"
+        }
+      },
+      {
+        "id": "d05",
+        "scene_id": "scene_08",
+        "start": 81.0,
+        "end": 86.0,
+        "speaker": "Maya",
+        "text": "We are not finished yet.",
+        "subtitle_variants": {
+          "hi_haryanvi": "अभी बात खत्म ना हुई।"
+        }
+      }
+    ],
+    "subtitles": {
+      "default": [],
+      "hi_haryanvi": []
+    },
+    "contracts": [
+      {
+        "id": "music-01",
+        "asset_type": "music",
+        "asset_id": "theme_01",
+        "allowed": true,
+        "territories": [
+          "IN"
+        ],
+        "promotional_use": true,
+        "valid_from": null,
+        "valid_until": "2099-12-31",
+        "notes": "Primary trailer music clearance.",
+        "version": 1
+      },
+      {
+        "id": "music-02",
+        "asset_type": "music",
+        "asset_id": "theme_02",
+        "allowed": true,
+        "territories": [
+          "IN"
+        ],
+        "promotional_use": true,
+        "valid_from": null,
+        "valid_until": "2099-12-31",
+        "notes": "Secondary music clearance.",
+        "version": 1
+      }
+    ],
+    "rating_policies": [
+      {
+        "id": "rating-family",
+        "audience_id": "family",
+        "max_rating": "U",
+        "blocked_terms": [
+          "violence",
+          "blood"
+        ],
+        "blocked_tags": [
+          "frightening_sound",
+          "graphic"
+        ],
+        "notes": "Strictest family campaign policy."
+      },
+      {
+        "id": "rating-ya",
+        "audience_id": "young_adult",
+        "max_rating": "UA",
+        "blocked_terms": [
+          "graphic"
+        ],
+        "blocked_tags": [
+          "graphic"
+        ],
+        "notes": "Do not reveal the central twist."
+      },
+      {
+        "id": "rating-dialect",
+        "audience_id": "dialect_region",
+        "max_rating": "UA",
+        "blocked_terms": [
+          "graphic"
+        ],
+        "blocked_tags": [
+          "graphic"
+        ],
+        "notes": "Regional campaign policy."
+      }
+    ],
+    "historic_performance": [
+      {
+        "scene_id": "scene_05",
+        "ctr": 0.91,
+        "note": "Historically high-performing but not a guaranteed fit for every audience."
+      },
+      {
+        "scene_id": "scene_02",
+        "ctr": 0.76,
+        "note": "Dialogue conflict historically performs well."
+      }
+    ],
+    "cost_sheet": {
+      "model_call_usd": 0.01,
+      "media_analysis_usd": 0.02,
+      "rendering_usd_per_second": 0.001,
+      "budget_usd": 1.0
+    },
+    "metadata": {
+      "default_territory": "IN",
+      "replacement_audio": "dialogue_only"
+    }
+  },
+  "audiences": [
+    {
+      "id": "family",
+      "name": "family viewers",
+      "goal": "Communicate warmth, stakes and broad entertainment value.",
+      "special_care": "Follow the strictest rating rules and avoid frightening or suggestive context.",
+      "territory": "IN",
+      "preferred_language": null,
+      "dialect": null,
+      "engagement_signals": {}
+    },
+    {
+      "id": "young_adult",
+      "name": "young adult viewers",
+      "goal": "Highlight pace, humour, identity and character conflict.",
+      "special_care": "Do not use misleading intensity or reveal the central twist.",
+      "territory": "IN",
+      "preferred_language": null,
+      "dialect": null,
+      "engagement_signals": {}
+    },
+    {
+      "id": "dialect_region",
+      "name": "dialect-region viewers",
+      "goal": "Show that the release understands the audience's language and cultural context.",
+      "special_care": "Do not reduce the audience to stereotypes or treat dialect as a comic device.",
+      "territory": "IN",
+      "preferred_language": "hi",
+      "dialect": "hi_haryanvi",
+      "engagement_signals": {
+        "dialect_affinity": 0.71
+      }
+    }
+  ],
+  "trailers": [
+    {
+      "trailer_id": "family_v1",
+      "audience": {
+        "id": "family",
+        "name": "family viewers",
+        "goal": "Communicate warmth, stakes and broad entertainment value.",
+        "special_care": "Follow the strictest rating rules and avoid frightening or suggestive context.",
+        "territory": "IN",
+        "preferred_language": null,
+        "dialect": null,
+        "engagement_signals": {}
+      },
+      "duration_seconds": 45.0,
+      "audience_promise": "A warm family mystery with approachable stakes.",
+      "emotional_journey": [
+        "welcome",
+        "curiosity",
+        "warm unresolved question"
+      ],
+      "segments": [
+        {
+          "segment_id": "family_seg_01",
+          "source_scene_id": "scene_01",
+          "timecode": {
+            "start": 0.0,
+            "end": 10.0,
+            "source_in": "00:00:00.000",
+            "source_out": "00:00:10.000"
+          },
+          "video": "scene:scene_01",
+          "audio": "music:theme_01",
+          "subtitle": "It feels good to be home.",
+          "text_card": null,
+          "voice_over": null,
+          "reason": "Supports the family audience promise using source scene evidence.",
+          "evidence": [
+            {
+              "source_type": "scene",
+              "source_id": "scene_01",
+              "detail": "Maya returns to her family home and notices the old courtyard is being prepared for a celebration."
+            }
+          ],
+          "risk_flags": []
+        },
+        {
+          "segment_id": "family_seg_02",
+          "source_scene_id": "scene_03",
+          "timecode": {
+            "start": 20.0,
+            "end": 30.0,
+            "source_in": "00:00:20.000",
+            "source_out": "00:00:30.000"
+          },
+          "video": "scene:scene_03",
+          "audio": "music:theme_02",
+          "subtitle": "Whatever happens, we face it together.",
+          "text_card": null,
+          "voice_over": null,
+          "reason": "Supports the family audience promise using source scene evidence.",
+          "evidence": [
+            {
+              "source_type": "scene",
+              "source_id": "scene_03",
+              "detail": "Asha tells Maya that the family should stay together and finish preparations before sunset."
+            }
+          ],
+          "risk_flags": []
+        },
+        {
+          "segment_id": "family_seg_03",
+          "source_scene_id": "scene_04",
+          "timecode": {
+            "start": 30.0,
+            "end": 40.0,
+            "source_in": "00:00:30.000",
+            "source_out": "00:00:40.000"
+          },
+          "video": "scene:scene_04",
+          "audio": "music:theme_02",
+          "subtitle": "What is this doing here?",
+          "text_card": null,
+          "voice_over": null,
+          "reason": "Supports the family audience promise using source scene evidence.",
+          "evidence": [
+            {
+              "source_type": "scene",
+              "source_id": "scene_04",
+              "detail": "Arjun finds an old sealed envelope behind the shop counter and quietly hides it."
+            }
+          ],
+          "risk_flags": []
+        },
+        {
+          "segment_id": "family_seg_04",
+          "source_scene_id": "scene_08",
+          "timecode": {
+            "start": 75.0,
+            "end": 90.0,
+            "source_in": "00:01:15.000",
+            "source_out": "00:01:30.000"
+          },
+          "video": "scene:scene_08",
+          "audio": "music:theme_01",
+          "subtitle": "We are not finished yet.",
+          "text_card": null,
+          "voice_over": null,
+          "reason": "Supports the family audience promise using source scene evidence.",
+          "evidence": [
+            {
+              "source_type": "scene",
+              "source_id": "scene_08",
+              "detail": "At sunset, Maya closes the shop door and looks toward the family courtyard, leaving the outcome unresolved."
+            }
+          ],
+          "risk_flags": []
+        }
+      ],
+      "validation": [
+        {
+          "validator": "source_accuracy",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "spoiler",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "story_truth",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "rights",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "audience_policy",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "cultural_respect",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "accessibility",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "budget",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "audience_bias",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "input_safety",
+          "status": "PASS",
+          "issues": []
+        }
+      ],
+      "assumptions": [
+        "Mock planner uses supplied scene metadata as grounded evidence.",
+        "Historic performance is treated as a hypothesis signal, not a selection rule."
+      ],
+      "human_approvals_required": [
+        "editorial_final_cut",
+        "rights_approval",
+        "editorial_review"
+      ],
+      "estimated_cost_usd": 0.045,
+      "fallback_plan": "Drop the riskiest segment, replace it with the next validated candidate, then rerun all impacted validators.",
+      "revision": 1,
+      "status": "PASS"
+    },
+    {
+      "trailer_id": "young_adult_v1",
+      "audience": {
+        "id": "young_adult",
+        "name": "young adult viewers",
+        "goal": "Highlight pace, humour, identity and character conflict.",
+        "special_care": "Do not use misleading intensity or reveal the central twist.",
+        "territory": "IN",
+        "preferred_language": null,
+        "dialect": null,
+        "engagement_signals": {}
+      },
+      "duration_seconds": 40.0,
+      "audience_promise": "A fast character conflict where a hidden truth changes the stakes.",
+      "emotional_journey": [
+        "hook",
+        "conflict",
+        "escalation",
+        "unresolved question"
+      ],
+      "segments": [
+        {
+          "segment_id": "young_adult_seg_01",
+          "source_scene_id": "scene_01",
+          "timecode": {
+            "start": 0.0,
+            "end": 10.0,
+            "source_in": "00:00:00.000",
+            "source_out": "00:00:10.000"
+          },
+          "video": "scene:scene_01",
+          "audio": "music:theme_01",
+          "subtitle": "It feels good to be home.",
+          "text_card": null,
+          "voice_over": null,
+          "reason": "Supports the young_adult audience promise using source scene evidence.",
+          "evidence": [
+            {
+              "source_type": "scene",
+              "source_id": "scene_01",
+              "detail": "Maya returns to her family home and notices the old courtyard is being prepared for a celebration."
+            }
+          ],
+          "risk_flags": []
+        },
+        {
+          "segment_id": "young_adult_seg_02",
+          "source_scene_id": "scene_02",
+          "timecode": {
+            "start": 10.0,
+            "end": 20.0,
+            "source_in": "00:00:10.000",
+            "source_out": "00:00:20.000"
+          },
+          "video": "scene:scene_02",
+          "audio": "music:theme_01",
+          "subtitle": "We cannot keep pretending nothing changed.",
+          "text_card": null,
+          "voice_over": null,
+          "reason": "Supports the young_adult audience promise using source scene evidence.",
+          "evidence": [
+            {
+              "source_type": "scene",
+              "source_id": "scene_02",
+              "detail": "Maya and her brother Arjun argue about whether to keep the family shop open."
+            }
+          ],
+          "risk_flags": []
+        },
+        {
+          "segment_id": "young_adult_seg_03",
+          "source_scene_id": "scene_04",
+          "timecode": {
+            "start": 30.0,
+            "end": 40.0,
+            "source_in": "00:00:30.000",
+            "source_out": "00:00:40.000"
+          },
+          "video": "scene:scene_04",
+          "audio": "music:theme_02",
+          "subtitle": "What is this doing here?",
+          "text_card": null,
+          "voice_over": null,
+          "reason": "Supports the young_adult audience promise using source scene evidence.",
+          "evidence": [
+            {
+              "source_type": "scene",
+              "source_id": "scene_04",
+              "detail": "Arjun finds an old sealed envelope behind the shop counter and quietly hides it."
+            }
+          ],
+          "risk_flags": []
+        },
+        {
+          "segment_id": "young_adult_seg_04",
+          "source_scene_id": "scene_05",
+          "timecode": {
+            "start": 40.0,
+            "end": 50.0,
+            "source_in": "00:00:40.000",
+            "source_out": "00:00:50.000"
+          },
+          "video": "scene:scene_05",
+          "audio": "music:theme_01",
+          "subtitle": null,
+          "text_card": null,
+          "voice_over": null,
+          "reason": "Supports the young_adult audience promise using source scene evidence.",
+          "evidence": [
+            {
+              "source_type": "scene",
+              "source_id": "scene_05",
+              "detail": "Maya hears a loud crash from the back room and runs toward it."
+            }
+          ],
+          "risk_flags": []
+        }
+      ],
+      "validation": [
+        {
+          "validator": "source_accuracy",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "spoiler",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "story_truth",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "rights",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "audience_policy",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "cultural_respect",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "accessibility",
+          "status": "PASS_WITH_WARNINGS",
+          "issues": [
+            {
+              "code": "MISSING_ACCESSIBLE_TEXT",
+              "severity": "warning",
+              "message": "Segment has spoken/dialogue audio but no subtitle or text-card representation.",
+              "segment_id": "young_adult_seg_04",
+              "evidence": [],
+              "repair_hint": "Attach verified subtitles when dialogue is present."
+            }
+          ]
+        },
+        {
+          "validator": "budget",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "audience_bias",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "input_safety",
+          "status": "PASS",
+          "issues": []
+        }
+      ],
+      "assumptions": [
+        "Mock planner uses supplied scene metadata as grounded evidence.",
+        "Historic performance is treated as a hypothesis signal, not a selection rule."
+      ],
+      "human_approvals_required": [
+        "editorial_final_cut",
+        "rights_approval",
+        "editorial_review"
+      ],
+      "estimated_cost_usd": 0.04,
+      "fallback_plan": "Drop the riskiest segment, replace it with the next validated candidate, then rerun all impacted validators.",
+      "revision": 1,
+      "status": "PASS_WITH_WARNINGS"
+    },
+    {
+      "trailer_id": "dialect_region_v1",
+      "audience": {
+        "id": "dialect_region",
+        "name": "dialect-region viewers",
+        "goal": "Show that the release understands the audience's language and cultural context.",
+        "special_care": "Do not reduce the audience to stereotypes or treat dialect as a comic device.",
+        "territory": "IN",
+        "preferred_language": "hi",
+        "dialect": "hi_haryanvi",
+        "engagement_signals": {
+          "dialect_affinity": 0.71
+        }
+      },
+      "duration_seconds": 45.0,
+      "audience_promise": "A character-led mystery presented through supplied regional language evidence.",
+      "emotional_journey": [
+        "familiar voice",
+        "family tension",
+        "curiosity",
+        "unresolved question"
+      ],
+      "segments": [
+        {
+          "segment_id": "dialect_region_seg_01",
+          "source_scene_id": "scene_01",
+          "timecode": {
+            "start": 0.0,
+            "end": 10.0,
+            "source_in": "00:00:00.000",
+            "source_out": "00:00:10.000"
+          },
+          "video": "scene:scene_01",
+          "audio": "music:theme_01",
+          "subtitle": "घर आके अच्छा लाग्या।",
+          "text_card": null,
+          "voice_over": null,
+          "reason": "Supports the dialect_region audience promise using source scene evidence.",
+          "evidence": [
+            {
+              "source_type": "scene",
+              "source_id": "scene_01",
+              "detail": "Maya returns to her family home and notices the old courtyard is being prepared for a celebration."
+            }
+          ],
+          "risk_flags": []
+        },
+        {
+          "segment_id": "dialect_region_seg_02",
+          "source_scene_id": "scene_02",
+          "timecode": {
+            "start": 10.0,
+            "end": 20.0,
+            "source_in": "00:00:10.000",
+            "source_out": "00:00:20.000"
+          },
+          "video": "scene:scene_02",
+          "audio": "music:theme_01",
+          "subtitle": "हम यूं ना मान सकें कि कुछ बदल्या ही ना।",
+          "text_card": null,
+          "voice_over": null,
+          "reason": "Supports the dialect_region audience promise using source scene evidence.",
+          "evidence": [
+            {
+              "source_type": "scene",
+              "source_id": "scene_02",
+              "detail": "Maya and her brother Arjun argue about whether to keep the family shop open."
+            }
+          ],
+          "risk_flags": []
+        },
+        {
+          "segment_id": "dialect_region_seg_03",
+          "source_scene_id": "scene_03",
+          "timecode": {
+            "start": 20.0,
+            "end": 30.0,
+            "source_in": "00:00:20.000",
+            "source_out": "00:00:30.000"
+          },
+          "video": "scene:scene_03",
+          "audio": "music:theme_02",
+          "subtitle": "जो भी हो, मिलकै सामना करांगे।",
+          "text_card": null,
+          "voice_over": null,
+          "reason": "Supports the dialect_region audience promise using source scene evidence.",
+          "evidence": [
+            {
+              "source_type": "scene",
+              "source_id": "scene_03",
+              "detail": "Asha tells Maya that the family should stay together and finish preparations before sunset."
+            }
+          ],
+          "risk_flags": []
+        },
+        {
+          "segment_id": "dialect_region_seg_04",
+          "source_scene_id": "scene_08",
+          "timecode": {
+            "start": 75.0,
+            "end": 90.0,
+            "source_in": "00:01:15.000",
+            "source_out": "00:01:30.000"
+          },
+          "video": "scene:scene_08",
+          "audio": "music:theme_01",
+          "subtitle": "अभी बात खत्म ना हुई।",
+          "text_card": null,
+          "voice_over": null,
+          "reason": "Supports the dialect_region audience promise using source scene evidence.",
+          "evidence": [
+            {
+              "source_type": "scene",
+              "source_id": "scene_08",
+              "detail": "At sunset, Maya closes the shop door and looks toward the family courtyard, leaving the outcome unresolved."
+            }
+          ],
+          "risk_flags": []
+        }
+      ],
+      "validation": [
+        {
+          "validator": "source_accuracy",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "spoiler",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "story_truth",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "rights",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "audience_policy",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "cultural_respect",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "accessibility",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "budget",
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "validator": "audience_bias",
+          "status": "PASS_WITH_WARNINGS",
+          "issues": [
+            {
+              "code": "SENSITIVE_AUDIENCE_SIGNAL",
+              "severity": "warning",
+              "message": "Audience data contains identity/regional signal(s): dialect_affinity. These must not be used as stereotype proxies.",
+              "segment_id": null,
+              "evidence": [],
+              "repair_hint": "Use explicit episode evidence and language/context attributes instead of demographic assumptions."
+            }
+          ]
+        },
+        {
+          "validator": "input_safety",
+          "status": "PASS",
+          "issues": []
+        }
+      ],
+      "assumptions": [
+        "Mock planner uses supplied scene metadata as grounded evidence.",
+        "Historic performance is treated as a hypothesis signal, not a selection rule."
+      ],
+      "human_approvals_required": [
+        "editorial_final_cut",
+        "rights_approval",
+        "cultural_review"
+      ],
+      "estimated_cost_usd": 0.045,
+      "fallback_plan": "Drop the riskiest segment, replace it with the next validated candidate, then rerun all impacted validators.",
+      "revision": 1,
+      "status": "PASS_WITH_WARNINGS"
+    }
+  ],
+  "decision_log": [
+    {
+      "decision_id": "plan:family_v1:1",
+      "trailer_id": "family_v1",
+      "stage": "planning",
+      "action": "create_plan",
+      "reason": "A warm family mystery with approachable stakes.",
+      "evidence": [],
+      "changed_by_event": null,
+      "revision": 1,
+      "logged_at": "2026-09-29T14:55:39.682934+00:00"
+    },
+    {
+      "decision_id": "validate:family_v1:1:1",
+      "trailer_id": "family_v1",
+      "stage": "validation",
+      "action": "validate",
+      "reason": "PASS",
+      "evidence": [],
+      "changed_by_event": null,
+      "revision": 1,
+      "logged_at": "2026-09-29T14:55:39.682934+00:00"
+    },
+    {
+      "decision_id": "plan:young_adult_v1:1",
+      "trailer_id": "young_adult_v1",
+      "stage": "planning",
+      "action": "create_plan",
+      "reason": "A fast character conflict where a hidden truth changes the stakes.",
+      "evidence": [],
+      "changed_by_event": null,
+      "revision": 1,
+      "logged_at": "2026-09-29T14:55:39.682934+00:00"
+    },
+    {
+      "decision_id": "validate:young_adult_v1:1:1",
+      "trailer_id": "young_adult_v1",
+      "stage": "validation",
+      "action": "validate",
+      "reason": "PASS_WITH_WARNINGS",
+      "evidence": [],
+      "changed_by_event": null,
+      "revision": 1,
+      "logged_at": "2026-09-29T14:55:39.682934+00:00"
+    },
+    {
+      "decision_id": "plan:dialect_region_v1:1",
+      "trailer_id": "dialect_region_v1",
+      "stage": "planning",
+      "action": "create_plan",
+      "reason": "A character-led mystery presented through supplied regional language evidence.",
+      "evidence": [],
+      "changed_by_event": null,
+      "revision": 1,
+      "logged_at": "2026-09-29T14:55:39.682934+00:00"
+    },
+    {
+      "decision_id": "validate:dialect_region_v1:1:1",
+      "trailer_id": "dialect_region_v1",
+      "stage": "validation",
+      "action": "validate",
+      "reason": "PASS_WITH_WARNINGS",
+      "evidence": [],
+      "changed_by_event": null,
+      "revision": 1,
+      "logged_at": "2026-09-29T14:55:39.682934+00:00"
+    }
+  ],
+  "validation": {
+    "status": "PASS_WITH_WARNINGS"
+  }
+}

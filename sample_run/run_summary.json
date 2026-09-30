@@ -1,0 +1,33 @@
+{
+  "system": "autonomous_trailer_director",
+  "mode": "mock",
+  "episode_id": "demo_episode_001",
+  "overall_validation": "PASS_WITH_WARNINGS",
+  "trailers": [
+    "family_v1",
+    "young_adult_v1",
+    "dialect_region_v1"
+  ],
+  "renders": {
+    "family_v1": {
+      "status": "SKIPPED",
+      "reason": "FFmpeg is not installed or not on PATH. Rendering is optional; edit-decision-list artifacts were still generated."
+    },
+    "young_adult_v1": {
+      "status": "SKIPPED",
+      "reason": "FFmpeg is not installed or not on PATH. Rendering is optional; edit-decision-list artifacts were still generated."
+    },
+    "dialect_region_v1": {
+      "status": "SKIPPED",
+      "reason": "FFmpeg is not installed or not on PATH. Rendering is optional; edit-decision-list artifacts were still generated."
+    }
+  },
+  "artifacts": [
+    "story_map.json",
+    "constraint_map.json",
+    "family_trailer.json",
+    "young_adult_trailer.json",
+    "dialect_region_trailer.json",
+    "decision_log.json"
+  ]
+}

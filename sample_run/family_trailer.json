@@ -1,0 +1,197 @@
+{
+  "trailer_id": "family_v1",
+  "audience": {
+    "id": "family",
+    "name": "family viewers",
+    "goal": "Communicate warmth, stakes and broad entertainment value.",
+    "special_care": "Follow the strictest rating rules and avoid frightening or suggestive context.",
+    "territory": "IN",
+    "preferred_language": null,
+    "dialect": null,
+    "engagement_signals": {}
+  },
+  "duration_seconds": 45.0,
+  "audience_promise": "A warm family mystery with approachable stakes.",
+  "emotional_journey": [
+    "welcome",
+    "curiosity",
+    "warm unresolved question"
+  ],
+  "segments": [
+    {
+      "segment_id": "family_seg_01",
+      "source_scene_id": "scene_01",
+      "timecode": {
+        "start": 0.0,
+        "end": 10.0,
+        "source_in": "00:00:00.000",
+        "source_out": "00:00:10.000"
+      },
+      "video": "scene:scene_01",
+      "audio": "music:theme_01",
+      "subtitle": "It feels good to be home.",
+      "text_card": null,
+      "voice_over": null,
+      "reason": "Supports the family audience promise using source scene evidence.",
+      "evidence": [
+        {
+          "source_type": "scene",
+          "source_id": "scene_01",
+          "detail": "Maya returns to her family home and notices the old courtyard is being prepared for a celebration."
+        }
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "family_seg_02",
+      "source_scene_id": "scene_03",
+      "timecode": {
+        "start": 20.0,
+        "end": 30.0,
+        "source_in": "00:00:20.000",
+        "source_out": "00:00:30.000"
+      },
+      "video": "scene:scene_03",
+      "audio": "music:theme_02",
+      "subtitle": "Whatever happens, we face it together.",
+      "text_card": null,
+      "voice_over": null,
+      "reason": "Supports the family audience promise using source scene evidence.",
+      "evidence": [
+        {
+          "source_type": "scene",
+          "source_id": "scene_03",
+          "detail": "Asha tells Maya that the family should stay together and finish preparations before sunset."
+        }
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "family_seg_03",
+      "source_scene_id": "scene_04",
+      "timecode": {
+        "start": 30.0,
+        "end": 40.0,
+        "source_in": "00:00:30.000",
+        "source_out": "00:00:40.000"
+      },
+      "video": "scene:scene_04",
+      "audio": "music:theme_02",
+      "subtitle": "What is this doing here?",
+      "text_card": null,
+      "voice_over": null,
+      "reason": "Supports the family audience promise using source scene evidence.",
+      "evidence": [
+        {
+          "source_type": "scene",
+          "source_id": "scene_04",
+          "detail": "Arjun finds an old sealed envelope behind the shop counter and quietly hides it."
+        }
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "family_seg_04",
+      "source_scene_id": "scene_08",
+      "timecode": {
+        "start": 75.0,
+        "end": 90.0,
+        "source_in": "00:01:15.000",
+        "source_out": "00:01:30.000"
+      },
+      "video": "scene:scene_08",
+      "audio": "music:theme_01",
+      "subtitle": "We are not finished yet.",
+      "text_card": null,
+      "voice_over": null,
+      "reason": "Supports the family audience promise using source scene evidence.",
+      "evidence": [
+        {
+          "source_type": "scene",
+          "source_id": "scene_08",
+          "detail": "At sunset, Maya closes the shop door and looks toward the family courtyard, leaving the outcome unresolved."
+        }
+      ],
+      "risk_flags": []
+    }
+  ],
+  "validation": [
+    {
+      "validator": "source_accuracy",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "spoiler",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "story_truth",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "rights",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "audience_policy",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "cultural_respect",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "accessibility",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "budget",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "audience_bias",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "input_safety",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "video_grounding",
+      "status": "NOT_RUN",
+      "issues": [
+        {
+          "code": "VIDEO_ANALYSIS_NOT_AVAILABLE",
+          "severity": "info",
+          "message": "No live video analysis was supplied; deterministic source checks still apply.",
+          "segment_id": null,
+          "evidence": [],
+          "repair_hint": null
+        }
+      ]
+    }
+  ],
+  "assumptions": [
+    "Mock planner uses supplied scene metadata as grounded evidence.",
+    "Historic performance is treated as a hypothesis signal, not a selection rule."
+  ],
+  "human_approvals_required": [
+    "editorial_final_cut",
+    "rights_approval",
+    "editorial_review"
+  ],
+  "estimated_cost_usd": 0.045,
+  "fallback_plan": "Drop the riskiest segment, replace it with the next validated candidate, then rerun all impacted validators.",
+  "revision": 1,
+  "status": "PASS"
+}

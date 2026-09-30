@@ -1,0 +1,207 @@
+{
+  "trailer_id": "young_adult_v1",
+  "audience": {
+    "id": "young_adult",
+    "name": "young adult viewers",
+    "goal": "Highlight pace, humour, identity and character conflict.",
+    "special_care": "Do not use misleading intensity or reveal the central twist.",
+    "territory": "IN",
+    "preferred_language": null,
+    "dialect": null,
+    "engagement_signals": {}
+  },
+  "duration_seconds": 40.0,
+  "audience_promise": "A fast character conflict where a hidden truth changes the stakes.",
+  "emotional_journey": [
+    "hook",
+    "conflict",
+    "escalation",
+    "unresolved question"
+  ],
+  "segments": [
+    {
+      "segment_id": "young_adult_seg_01",
+      "source_scene_id": "scene_01",
+      "timecode": {
+        "start": 0.0,
+        "end": 10.0,
+        "source_in": "00:00:00.000",
+        "source_out": "00:00:10.000"
+      },
+      "video": "scene:scene_01",
+      "audio": "music:theme_01",
+      "subtitle": "It feels good to be home.",
+      "text_card": null,
+      "voice_over": null,
+      "reason": "Supports the young_adult audience promise using source scene evidence.",
+      "evidence": [
+        {
+          "source_type": "scene",
+          "source_id": "scene_01",
+          "detail": "Maya returns to her family home and notices the old courtyard is being prepared for a celebration."
+        }
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "young_adult_seg_02",
+      "source_scene_id": "scene_02",
+      "timecode": {
+        "start": 10.0,
+        "end": 20.0,
+        "source_in": "00:00:10.000",
+        "source_out": "00:00:20.000"
+      },
+      "video": "scene:scene_02",
+      "audio": "music:theme_01",
+      "subtitle": "We cannot keep pretending nothing changed.",
+      "text_card": null,
+      "voice_over": null,
+      "reason": "Supports the young_adult audience promise using source scene evidence.",
+      "evidence": [
+        {
+          "source_type": "scene",
+          "source_id": "scene_02",
+          "detail": "Maya and her brother Arjun argue about whether to keep the family shop open."
+        }
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "young_adult_seg_03",
+      "source_scene_id": "scene_04",
+      "timecode": {
+        "start": 30.0,
+        "end": 40.0,
+        "source_in": "00:00:30.000",
+        "source_out": "00:00:40.000"
+      },
+      "video": "scene:scene_04",
+      "audio": "music:theme_02",
+      "subtitle": "What is this doing here?",
+      "text_card": null,
+      "voice_over": null,
+      "reason": "Supports the young_adult audience promise using source scene evidence.",
+      "evidence": [
+        {
+          "source_type": "scene",
+          "source_id": "scene_04",
+          "detail": "Arjun finds an old sealed envelope behind the shop counter and quietly hides it."
+        }
+      ],
+      "risk_flags": []
+    },
+    {
+      "segment_id": "young_adult_seg_04",
+      "source_scene_id": "scene_05",
+      "timecode": {
+        "start": 40.0,
+        "end": 50.0,
+        "source_in": "00:00:40.000",
+        "source_out": "00:00:50.000"
+      },
+      "video": "scene:scene_05",
+      "audio": "music:theme_01",
+      "subtitle": null,
+      "text_card": null,
+      "voice_over": null,
+      "reason": "Supports the young_adult audience promise using source scene evidence.",
+      "evidence": [
+        {
+          "source_type": "scene",
+          "source_id": "scene_05",
+          "detail": "Maya hears a loud crash from the back room and runs toward it."
+        }
+      ],
+      "risk_flags": []
+    }
+  ],
+  "validation": [
+    {
+      "validator": "source_accuracy",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "spoiler",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "story_truth",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "rights",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "audience_policy",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "cultural_respect",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "accessibility",
+      "status": "PASS_WITH_WARNINGS",
+      "issues": [
+        {
+          "code": "MISSING_ACCESSIBLE_TEXT",
+          "severity": "warning",
+          "message": "Segment has spoken/dialogue audio but no subtitle or text-card representation.",
+          "segment_id": "young_adult_seg_04",
+          "evidence": [],
+          "repair_hint": "Attach verified subtitles when dialogue is present."
+        }
+      ]
+    },
+    {
+      "validator": "budget",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "audience_bias",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "input_safety",
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "validator": "video_grounding",
+      "status": "NOT_RUN",
+      "issues": [
+        {
+          "code": "VIDEO_ANALYSIS_NOT_AVAILABLE",
+          "severity": "info",
+          "message": "No live video analysis was supplied; deterministic source checks still apply.",
+          "segment_id": null,
+          "evidence": [],
+          "repair_hint": null
+        }
+      ]
+    }
+  ],
+  "assumptions": [
+    "Mock planner uses supplied scene metadata as grounded evidence.",
+    "Historic performance is treated as a hypothesis signal, not a selection rule."
+  ],
+  "human_approvals_required": [
+    "editorial_final_cut",
+    "rights_approval",
+    "editorial_review"
+  ],
+  "estimated_cost_usd": 0.04,
+  "fallback_plan": "Drop the riskiest segment, replace it with the next validated candidate, then rerun all impacted validators.",
+  "revision": 1,
+  "status": "PASS_WITH_WARNINGS"
+}
