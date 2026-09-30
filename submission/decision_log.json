@@ -1,0 +1,68 @@
+[
+  {
+    "decision_id": "plan:family_v1:1",
+    "trailer_id": "family_v1",
+    "stage": "planning",
+    "action": "create_plan",
+    "reason": "A warm family mystery with approachable stakes.",
+    "evidence": [],
+    "changed_by_event": null,
+    "revision": 1,
+    "logged_at": "2026-09-30T10:06:41.547231+00:00"
+  },
+  {
+    "decision_id": "validate:family_v1:1:1",
+    "trailer_id": "family_v1",
+    "stage": "validation",
+    "action": "validate",
+    "reason": "PASS",
+    "evidence": [],
+    "changed_by_event": null,
+    "revision": 1,
+    "logged_at": "2026-09-30T10:06:41.547231+00:00"
+  },
+  {
+    "decision_id": "plan:young_adult_v1:1",
+    "trailer_id": "young_adult_v1",
+    "stage": "planning",
+    "action": "create_plan",
+    "reason": "A fast character conflict where a hidden truth changes the stakes.",
+    "evidence": [],
+    "changed_by_event": null,
+    "revision": 1,
+    "logged_at": "2026-09-30T10:06:41.547231+00:00"
+  },
+  {
+    "decision_id": "validate:young_adult_v1:1:1",
+    "trailer_id": "young_adult_v1",
+    "stage": "validation",
+    "action": "validate",
+    "reason": "PASS_WITH_WARNINGS",
+    "evidence": [],
+    "changed_by_event": null,
+    "revision": 1,
+    "logged_at": "2026-09-30T10:06:41.547231+00:00"
+  },
+  {
+    "decision_id": "plan:dialect_region_v1:1",
+    "trailer_id": "dialect_region_v1",
+    "stage": "planning",
+    "action": "create_plan",
+    "reason": "A character-led mystery presented through supplied regional language evidence.",
+    "evidence": [],
+    "changed_by_event": null,
+    "revision": 1,
+    "logged_at": "2026-09-30T10:06:41.547231+00:00"
+  },
+  {
+    "decision_id": "validate:dialect_region_v1:1:1",
+    "trailer_id": "dialect_region_v1",
+    "stage": "validation",
+    "action": "validate",
+    "reason": "PASS_WITH_WARNINGS",
+    "evidence": [],
+    "changed_by_event": null,
+    "revision": 1,
+    "logged_at": "2026-09-30T10:06:41.547231+00:00"
+  }
+]

@@ -1,0 +1,21 @@
+# Submission Checklist
+
+- [x] Runnable CLI
+- [x] Three generated audience-specific trailer plans
+- [x] Exact source timecodes in plans
+- [x] Story map
+- [x] Constraint map
+- [x] Independent validation layer
+- [x] Missing-scene test
+- [x] Rights-restriction test
+- [x] Spoiler test
+- [x] Audience-policy test
+- [x] Changed-contract/replanning test
+- [x] Mock/replay mode without personal API keys
+- [x] Architecture note
+- [x] AI collaboration note
+- [x] Known limitations and human approvals
+- [x] Structured decision log
+- [x] Optional FFmpeg rendering demo
+- [x] Optional local Ollama adapter
+- [x] Optional Gemini adapter

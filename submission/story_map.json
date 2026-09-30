@@ -1,0 +1,165 @@
+{
+  "episode_id": "demo_episode_001",
+  "characters": {
+    "Maya": {
+      "scenes": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_05",
+        "scene_06",
+        "scene_07",
+        "scene_08"
+      ]
+    },
+    "Asha": {
+      "scenes": [
+        "scene_01",
+        "scene_03"
+      ]
+    },
+    "Arjun": {
+      "scenes": [
+        "scene_02",
+        "scene_04",
+        "scene_07"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "scene_id": "scene_01",
+      "claim": "Maya is Asha's daughter."
+    },
+    {
+      "scene_id": "scene_02",
+      "claim": "Maya and Arjun are siblings."
+    },
+    {
+      "scene_id": "scene_03",
+      "claim": "Asha is Maya's mother."
+    },
+    {
+      "scene_id": "scene_07",
+      "claim": "Maya and Arjun are siblings."
+    }
+  ],
+  "major_events": [
+    {
+      "scene_id": "scene_01",
+      "tags": [
+        "family",
+        "warmth",
+        "identity"
+      ],
+      "description": "Maya returns to her family home and notices the old courtyard is being prepared for a celebration."
+    },
+    {
+      "scene_id": "scene_02",
+      "tags": [
+        "conflict",
+        "identity",
+        "dialogue"
+      ],
+      "description": "Maya and her brother Arjun argue about whether to keep the family shop open."
+    },
+    {
+      "scene_id": "scene_03",
+      "tags": [
+        "family",
+        "warmth",
+        "dialogue"
+      ],
+      "description": "Asha tells Maya that the family should stay together and finish preparations before sunset."
+    },
+    {
+      "scene_id": "scene_04",
+      "tags": [
+        "mystery",
+        "discovery"
+      ],
+      "description": "Arjun finds an old sealed envelope behind the shop counter and quietly hides it."
+    },
+    {
+      "scene_id": "scene_05",
+      "tags": [
+        "mystery",
+        "pace"
+      ],
+      "description": "Maya hears a loud crash from the back room and runs toward it."
+    },
+    {
+      "scene_id": "scene_06",
+      "tags": [
+        "discovery",
+        "major_reveal"
+      ],
+      "description": "Maya opens the envelope and discovers a letter explaining that the shop was secretly sold years earlier."
+    },
+    {
+      "scene_id": "scene_07",
+      "tags": [
+        "conflict",
+        "major_reveal",
+        "identity"
+      ],
+      "description": "The siblings confront each other after Maya learns the truth about the shop."
+    },
+    {
+      "scene_id": "scene_08",
+      "tags": [
+        "family",
+        "warmth",
+        "open_question"
+      ],
+      "description": "At sunset, Maya closes the shop door and looks toward the family courtyard, leaving the outcome unresolved."
+    }
+  ],
+  "emotional_turns": [
+    {
+      "scene_id": "scene_01",
+      "turn": "welcome"
+    },
+    {
+      "scene_id": "scene_02",
+      "turn": "conflict"
+    },
+    {
+      "scene_id": "scene_03",
+      "turn": "resolve"
+    },
+    {
+      "scene_id": "scene_04",
+      "turn": "mystery"
+    },
+    {
+      "scene_id": "scene_05",
+      "turn": "escalation"
+    },
+    {
+      "scene_id": "scene_06",
+      "turn": "revelation"
+    },
+    {
+      "scene_id": "scene_07",
+      "turn": "confrontation"
+    },
+    {
+      "scene_id": "scene_08",
+      "turn": "open_question"
+    }
+  ],
+  "spoiler_facts": [
+    "the shop was secretly sold years earlier",
+    "Arjun knew about the secret sale"
+  ],
+  "sensitive_content": [
+    {
+      "scene_id": "scene_05",
+      "content": [
+        "frightening_sound"
+      ]
+    }
+  ],
+  "llm_insights": {}
+}

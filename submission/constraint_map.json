@@ -1,0 +1,157 @@
+{
+  "constraints": [
+    {
+      "id": "source.scene_exists",
+      "category": "source_accuracy",
+      "rule": "Every selected scene must exist in the episode package.",
+      "severity": "hard_block",
+      "applies_to": [],
+      "evidence": []
+    },
+    {
+      "id": "source.timecodes_valid",
+      "category": "source_accuracy",
+      "rule": "Every selected timecode must be inside its source scene.",
+      "severity": "hard_block",
+      "applies_to": [],
+      "evidence": []
+    },
+    {
+      "id": "story.no_major_spoilers",
+      "category": "spoiler",
+      "rule": "Protected facts must not be disclosed.",
+      "severity": "hard_block",
+      "applies_to": [],
+      "evidence": []
+    },
+    {
+      "id": "story.truth",
+      "category": "story_truth",
+      "rule": "Do not imply unsupported relationships, threats or promises.",
+      "severity": "hard_block",
+      "applies_to": [],
+      "evidence": []
+    },
+    {
+      "id": "accessibility.readable_text",
+      "category": "accessibility",
+      "rule": "Text/subtitles should remain usable without depending only on audio.",
+      "severity": "error",
+      "applies_to": [],
+      "evidence": []
+    },
+    {
+      "id": "rights.valid_contract",
+      "category": "rights",
+      "rule": "Selected assets must be permitted for promotional use and territory at plan time.",
+      "severity": "hard_block",
+      "applies_to": [],
+      "evidence": []
+    },
+    {
+      "id": "budget.within_limit",
+      "category": "budget",
+      "rule": "Estimated processing cost must remain within the configured budget.",
+      "severity": "hard_block",
+      "applies_to": [],
+      "evidence": []
+    },
+    {
+      "id": "rights.music-01",
+      "category": "rights",
+      "rule": "Asset theme_01: allowed=True, promotional_use=True.",
+      "severity": "hard_block",
+      "applies_to": [
+        "theme_01"
+      ],
+      "evidence": [
+        "contract:music-01"
+      ]
+    },
+    {
+      "id": "rights.music-02",
+      "category": "rights",
+      "rule": "Asset theme_02: allowed=True, promotional_use=True.",
+      "severity": "hard_block",
+      "applies_to": [
+        "theme_02"
+      ],
+      "evidence": [
+        "contract:music-02"
+      ]
+    },
+    {
+      "id": "rating.rating-family",
+      "category": "audience_safety",
+      "rule": "Audience family: max_rating=U.",
+      "severity": "hard_block",
+      "applies_to": [
+        "family"
+      ],
+      "evidence": [
+        "rating_policy:rating-family"
+      ]
+    },
+    {
+      "id": "rating.rating-ya",
+      "category": "audience_safety",
+      "rule": "Audience young_adult: max_rating=UA.",
+      "severity": "hard_block",
+      "applies_to": [
+        "young_adult"
+      ],
+      "evidence": [
+        "rating_policy:rating-ya"
+      ]
+    },
+    {
+      "id": "rating.rating-dialect",
+      "category": "audience_safety",
+      "rule": "Audience dialect_region: max_rating=UA.",
+      "severity": "hard_block",
+      "applies_to": [
+        "dialect_region"
+      ],
+      "evidence": [
+        "rating_policy:rating-dialect"
+      ]
+    },
+    {
+      "id": "audience.family.respect",
+      "category": "cultural_respect",
+      "rule": "Follow the strictest rating rules and avoid frightening or suggestive context.",
+      "severity": "hard_block",
+      "applies_to": [
+        "family"
+      ],
+      "evidence": [
+        "audience:family"
+      ]
+    },
+    {
+      "id": "audience.young_adult.respect",
+      "category": "cultural_respect",
+      "rule": "Do not use misleading intensity or reveal the central twist.",
+      "severity": "hard_block",
+      "applies_to": [
+        "young_adult"
+      ],
+      "evidence": [
+        "audience:young_adult"
+      ]
+    },
+    {
+      "id": "audience.dialect_region.respect",
+      "category": "cultural_respect",
+      "rule": "Do not reduce the audience to stereotypes or treat dialect as a comic device.",
+      "severity": "hard_block",
+      "applies_to": [
+        "dialect_region"
+      ],
+      "evidence": [
+        "audience:dialect_region"
+      ]
+    }
+  ],
+  "version": 1
+}
