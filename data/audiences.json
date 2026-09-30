@@ -1,1 +1,17 @@
+{
+  "audiences": {
+    "family": {
+      "goal": "Communicate warmth, stakes and broad entertainment value.",
+      "special_care": "Follow the strictest rating rules and avoid frightening or suggestive context."
+    },
+    "young_adult": {
+      "goal": "Highlight pace, humour, identity and character conflict.",
+      "special_care": "Do not use misleading intensity or reveal the central twist."
+    },
+    "dialect_region": {
+      "goal": "Show that the release understands the audience's language and cultural context.",
+      "special_care": "Do not reduce the audience to stereotypes or treat dialect as a comic device."
+    }
+  }
+}
 
